@@ -14,9 +14,10 @@ class RegistrationActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnRegister.setOnClickListener {
-            val firstName = binding.etFirstName.text.toString()
-            val lastName = binding.etLastName.text.toString()
-            val accountType = binding.spinnerAccountType.selectedItem.toString()
+            val firstName = binding.etRegisterFirstName.text.toString()
+            val lastName = binding.etRegisterLastName.text.toString()
+            //Set binding for radiobutton for parent and kid
+            val accountType = ""
 
             //Validate the input
 
